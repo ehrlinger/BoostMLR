@@ -1,0 +1,41 @@
+Package: BoostMLR
+Version: 2.1.0
+BUILD: _PROJECT_BUILD_ID_
+
+---------------------------------------------------------------------------------
+CHANGES TO RELEASE 2.0
+---------------------------------------------------------------------------------
+RELEASE 2.1.0
+---------------------------------------------------------------------------------
+In addition to modeling synchronous longitudinal data (where both covariates 
+and responses are measured at the same time), this new version can handle
+asynchronous longitudinal data (where covariates can be measured at the different
+time points that time points of responses).
+
+---------------------------------------------------------------------------------
+CHANGES TO RELEASE 2.0
+---------------------------------------------------------------------------------
+In addition to modeling multiple continuous longitudinal responses, current
+implementation also handles multiple binary and/or ordinal responses.
+
+---------------------------------------------------------------------------------
+CHANGES TO RELEASE 1.0
+---------------------------------------------------------------------------------
+RELEASE 1.0.3
+---------------------------------------------------------------------------------
+Fix minor bugs on c++ side. We can extract beta coefficients on the standardized
+scale along with the original scale. 
+
+RELEASE 1.0.2
+---------------------------------------------------------------------------------
+Fix minor bugs on c++ side.
+
+RELEASE 1.0.1
+---------------------------------------------------------------------------------
+Fix minor bugs that changes user's graphical parameters. Plot will be saved
+in the temporary directory instead of working directory.
+
+RELEASE 1.0.0
+---------------------------------------------------------------------------------
+Please report bugs to amoljpande@gmail.com
+
